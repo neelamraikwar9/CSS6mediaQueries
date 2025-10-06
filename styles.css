@@ -1,0 +1,53 @@
+h1 {
+  text-decoration: underline;
+}
+
+/* This is mobile first approach;  */
+
+/* body {
+  background-color: yellow;
+  font-size: 14px;
+}
+
+
+/* @media (here we apply different kind of conditions){
+   write css property with their styles. 
+} */
+
+/* @media(min-width: 600px){
+  body {
+    background-color: white; 
+    font-size: 20px ;
+  }
+} */
+
+
+
+/* This is Desktop first approach. Desktop and tab comes into this.  */
+
+body {
+  background-color: aqua;
+}
+
+@media (max-width: 600px) {
+  body{
+  background-color: yellow;
+  }
+  
+}
+
+
+/* we can write multiple media quries for one particular element as well.  */
+
+@media (width: 750px) {
+  body {
+    background-color: white; 
+  }
+}
+
+
+/* The condition inside this can be anything But usually condition for different screen sizes usually be max or min. we should use this properties to design.  */
+
+/* We can apply styles to any html tag at different size of screens... */
+
+/* We use media queries because it makes our website look good on all devices. and it provides some user friendly experience.  */
